@@ -6,3 +6,7 @@ navBtn.addEventListener('click',()=>{
     showNav.classList.toggle('show-nav-second');
     hideMargin.classList.toggle('hide-margin');
 })
+
+const date = (document.getElementById(
+    "date"
+  ).innerHTML = new Date().getFullYear());
